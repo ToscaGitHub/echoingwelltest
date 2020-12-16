@@ -13,10 +13,11 @@ function preloadImage (done, i) {
     img.src = "image/well/" + i;
 }
 
+
 function start(){
     clearInterval(player);
     document.getElementById("well").src = "/image/well/0.png";
-    player = setInterval(function(){ next(); }, 100);
+    player = setInterval(function(){ next(); }, 40);
 }
 
 function next(){
@@ -26,7 +27,7 @@ function next(){
         var fullPath=document.getElementById("well").src;
         var filename = fullPath.split("/").pop();
         var n=parseInt(filename, 10) + 1;
-        if (n < 6) {
+        if (n < 39) {
             document.getElementById("well").src = "image/well/" + n + ".png";
             if (document.getElementById("well").height == 0) { clearInterval(player); };
         }
@@ -36,7 +37,9 @@ function next(){
 }
 
 
-
-
 // usage
 preloadImage(function () { console.log('images loaded'); });
+
+
+
+

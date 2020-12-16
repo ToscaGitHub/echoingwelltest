@@ -1,6 +1,43 @@
-#img {
 
-    width: 1280;
-    height: 720;
 
+
+body {
+    margin: 0;
 }
+  
+h1, h2 {
+    width: 100%;
+}
+  
+h1 {
+
+    text-align: center;
+    animation: right_to_left 3s ease;
+    margin-left: 25%;
+}
+  
+h2 {
+    text-align: center;
+    animation: left_to_right 3s ease;
+    margin-left: -25%;
+}
+  
+@keyframes right_to_left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 25%;
+    }
+}
+  
+@keyframes left_to_right {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: -25%;
+    }
+}
+
+

@@ -1,5 +1,10 @@
 
 
+
+
+
+
+
 var player;
 var timestamp;
 
@@ -18,7 +23,7 @@ function preloadImage (done, i) {
 function start(){
     clearInterval(player);
     document.getElementById("image").src = "/image/well/0.png";
-    player = setInterval(function(){ next(); }, 100);
+    player = setInterval(function(){ next(); }, 40);
 }
 
 function next(){
@@ -27,7 +32,7 @@ function next(){
         var fullPath=document.getElementById("image").src;
         var filename = fullPath.split("/").pop();
         var n=parseInt(filename, 10) + 1;
-        if (n < 6) {
+        if (n < 39) {
             document.getElementById("image").src = "image/well/" + n + ".png";
             if (document.getElementById("image").height == 0) { clearInterval(player); }
         }
