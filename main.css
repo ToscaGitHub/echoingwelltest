@@ -69,6 +69,14 @@ nav li a {
 
 }
 
+.stick {
+
+    background-color: #707070;
+    width: 1px;
+    height: 450px;
+
+}
+
 /* Animation Titre & Texte Présentation Site */
 
 .titlepresentation, .textpresentation {
@@ -87,6 +95,7 @@ nav li a {
     animation: left_to_right 3s ease;
     margin-left: 0;
     padding-left: 2%;
+    margin-right: 5%;
 
 }
 
@@ -119,7 +128,7 @@ nav li a {
     text-align: center;
     animation: right_to_left 3s ease;
     margin-left: 0;
-    padding-right: 2%;
+    padding-right: 5%;
     padding-left: 10%;
 
 }

@@ -50,57 +50,57 @@ preloadImage(function () { console.log('images loaded'); });
 //Box Idée
 
 
-function readForm() {
-    var error1 = false
+// function readForm() {
+//     var error1 = false
 
 
-var elem = document.getElementById("userIdea")
+// var elem = document.getElementById("userIdea")
 
-// IDEE TAILLE MINIMUM
+// // IDEE TAILLE MINIMUM
 
-if (elem.value.length < 15){
-    document.getElementById("ideaError").innerHTML = "Veuillez saisir au moins 15 caractères"
-    error1 = true
-}
-else if (error1 == false) {
-    document.getElementById("ideaError").innerHTML = ""
-    error1 = false
-}
+// if (elem.value.length < 15){
+//     document.getElementById("ideaError").innerHTML = "Veuillez saisir au moins 15 caractères"
+//     error1 = true
+// }
+// else if (error1 == false) {
+//     document.getElementById("ideaError").innerHTML = ""
+//     error1 = false
+// }
 
-// IDEE TAILLE MAXIMUM
+// // IDEE TAILLE MAXIMUM
 
-if (elem.value.length > 300) {
-    document.getElementById("ideaError").innerHTML = "Veuillez saisir un commentaire de 300 caractères maxi"
-    error1 = true
-}
-else {
-    document.getElementById("ideaError").innerHTML = ""
-    error1 = false
-}
-
-
+// if (elem.value.length > 300) {
+//     document.getElementById("ideaError").innerHTML = "Veuillez saisir un commentaire de 300 caractères maxi"
+//     error1 = true
+// }
+// else {
+//     document.getElementById("ideaError").innerHTML = ""
+//     error1 = false
+// }
 
 
 
-//document.getElementById("output").innerHTML = elem.value
+
+
+// //document.getElementById("output").innerHTML = elem.value
 
  
 
-if (error1 == false) {
-    var userIdea = document.getElementById("userIdea").value
+// if (error1 == false) {
+//     var userIdea = document.getElementById("userIdea").value
 
 
 
 
-//var recap = fName + ", " + fFirstName + ", " + fAge
-//document.getElementById("output").innerHTML = recap
+// //var recap = fName + ", " + fFirstName + ", " + fAge
+// //document.getElementById("output").innerHTML = recap
 
 
 
-    document.getElementById("msgOk").innerHTML = "Merci pour votre idée, N'hésitez jamais a nous en redonner."
-    document.getElementById("urIdea").innerHTML = "Votre Idée: " + userIdea
-}
-}
+//     document.getElementById("msgOk").innerHTML = "Merci pour votre idée, N'hésitez jamais a nous en redonner."
+//     document.getElementById("urIdea").innerHTML = "Votre Idée: " + userIdea
+// }
+// }
 
 
 
