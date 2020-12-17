@@ -1,103 +1,202 @@
-body {
+body{
 
-  width: 100%;
-  margin: 0;
+    width: 100%;
+    margin: 0;
 
 }
 
-/* Titre & Texte Présentation Site */
+
+.box {
+
+    width: 500px;
+    height: 500px;
+    background: black;
+    color: black;
+
+    text-align: center;
+
+}
+
+/* 
+
+
+/* NAV BAR 
+
+nav {
+    
+    width: 100%;
+    
+}
+
+nav li {
+    
+    list-style-type: none;
+    
+}
+
+nav li a {
+    
+    text-decoration: none;
+    color: #707070;
+    
+}
+
+.wellpic {
+    
+    text-align: center;
+    
+}
+
+
+
+.dirtback {
+    
+    background-image: url("/image/backgrounds/dirt.png");
+    
+    margin-top: -900px;
+    width: 100%;
+    height: 2105px;
+    
+}
+
+#ideabox {
+    
+    width: 50%;
+    
+}
+
+
+/* PARALLAXE ENTRE PRESENTATION & QUI SOMMES NOUS 
+
+.container {
+
+    max-width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+    font-size: 24px;
+
+}
+
+.parallaxe {
+
+    background: url("/image/backgrounds/water.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+
+}
+
+
+
+/* Titre & Texte Présentation Site 
 
 .presentation {
-
-  width: 100%;
-  display: inline-flex;
-  justify-content: space-between;
-  margin-top: 200px;
+    
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 225px;
+    margin-bottom: 225px;
 
 }
 
-/* Animation Titre & Texte Présentation Site */
+.stick {
+
+    background-color: #707070;
+    width: 1px;
+    height: 450px;
+
+}
+
+/* Animation Titre & Texte Présentation Site 
 
 .titlepresentation, .textpresentation {
 
-  color: #707070;
+    color: #707070;
 
 }
 
-/* Titre Présentation Site */
+/* Titre Présentation Site 
 
 .titlepresentation {
 
-  width: 45%;
+    width: 45%;
+    max-height: 75%;
 
-  text-align: center;
-  animation: left_to_right 3s ease;
-  margin-left: 0;
-  padding-left: 2%;
+    text-align: center;
+    animation: left_to_right 3s ease;
+    margin-left: 0;
+    padding-left: 2%;
+    margin-right: 5%;
 
 }
 
 .titlepresentation h2 {
 
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 75px;
 
-  margin-left: -230px;
+    margin-left: -230px;
 
 }
 
 .titlepresentation h1 {
 
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  font-size: 250px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 250px;
 
-  margin-top: -120px;
+    margin-top: -120px;
 
 }
 
-/* Texte Présentation Site */
+/* Texte Présentation Site 
 
 .textpresentation {
 
-  width: 45%;
+    width: 45%;
 
-  text-align: center;
-  animation: right_to_left 3s ease;
-  margin-left: 0;
-  padding-right: 2%;
-  padding-left: 10%;
+    text-align: center;
+    animation: right_to_left 3s ease;
+    margin-left: 0;
+    padding-right: 5%;
+    padding-left: 10%;
 
 }
+
 
 .textpresentation p {
 
 
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
-  font-size: 40px;
-  text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: justify;
+    
 
 }
 
-/* Keyframes Pour Animation Titre & Texte Présenation */
+/* Keyframes Pour Animation Titre & Texte Présenation 
 
-@keyframes left_to_right {
-  from {
-      margin-left: -100%;
-  }
-  to {
-      margin-left: 0;
-  }
-}
+/* @keyframes left_to_right {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0;
+        margin-right: 5%;
+        padding-left: 2%;
+    }
+} 
 
 @keyframes right_to_left {
-  from {
-    margin-left: 200%;
-  }
-  to {
-    margin-left: 0;
-  }
-}
-
+    from {
+      margin-left: 200%;
+    }
+    to {
+      margin-left: 0;
+      padding-right: 5%;
+      padding-left: 10%;
+    }
+} */
